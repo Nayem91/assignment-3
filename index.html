@@ -31,20 +31,20 @@
       <!-- navber finish -->
       <section class="container mt-5">
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-            <div class="carousel-indicators">
+            <!-- <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+            </div> -->
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-block">
-                  <div class="lg-pb-5 lg-mb-5">
-                    <h1 class="fw-bold fs-3"> Let's Start Code Learning</h1>
+                  <!-- <div class="pb-sm-0 pb-5 mb-5"> -->
+                    <h1 class="fw-lg-bold fs-lg-3"> Let's Start Code Learning</h1>
                     <p class="fw-bold">By Learning Code you can't change the world, But you can change your Life</p>
                     <button type="button" class="btn btn-primary px-5"> Get Started </button>
-                  </div>
+                  <!-- </div> -->
                 </div>
               </div>
               <div class="carousel-item">
@@ -84,9 +84,9 @@
         </div>
     </section>
     <section class="container pt-5">
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-5"">
-        <div class="card m-3" style="max-width: 540px;">
-          <div class="row g-0">
+      <div class="course row row-cols-1 row-cols-md-1 row-cols-lg-2 g-5"">
+        <div class="card m-3 p-0" style="max-width: 540px;">
+          <div class="row g-0 d-md-flex d-lg-flex">
             <div class="col">
               <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
             </div>
@@ -99,8 +99,8 @@
             </div>
           </div>
         </div>
-        <div class="card m-3" style="max-width: 540px;">
-          <div class="row g-0">
+        <div class="card m-3 p-0" style="max-width: 540px;">
+          <div class="row g-0 d-sm-flex">
             <div class="col">
               <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
             </div>
@@ -113,8 +113,8 @@
             </div>
           </div>
         </div>
-        <div class="card m-3" style="max-width: 540px;">
-          <div class="row g-0">
+        <div class="card m-3 p-0" style="max-width: 540px;">
+          <div class="row g-0 d-sm-flex">
             <div class="col">
               <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
             </div>
@@ -127,8 +127,8 @@
             </div>
           </div>
         </div>
-        <div class="card m-3" style="max-width: 540px;">
-          <div class="row g-0">
+        <div class="special card m-3 p-0" style="max-width: 540px;">
+          <div class="row  g-0 d-sm-flex">
             <div class="col">
               <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
             </div>
@@ -141,8 +141,8 @@
             </div>
           </div>
         </div>
-        <div class="card m-3" style="max-width: 540px;">
-          <div class="row g-0">
+        <div class="special card m-3 p-0" style="max-width: 540px;">
+          <div class="row g-0 d-sm-flex">
             <div class="col">
               <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
             </div>
@@ -155,8 +155,8 @@
             </div>
           </div>
         </div>
-        <div class="card m-3" style="max-width: 540px;">
-          <div class="row g-0">
+        <div class="special card m-3 p-0" style="max-width: 540px;">
+          <div class="row g-0 d-sm-flex">
             <div class="col">
               <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
             </div>
@@ -171,27 +171,30 @@
         </div>
       </div>
       <div class="d-flex justify-content-center p-5">
-        <button type="button" class="btn btn-primary"> See more Course</button>
+        <button id="special" type="button" class="btn btn-primary"> view-all</button>
+        <button id="" type="button" class="btn btn-primary special"> See more Course</button>
       </div>
     </section>
     <!-- middle part finish --> 
     <section class="container">
       <!-- Recomandet part -->
-      <div class="d-flex align-items-center bg-success p-2 text-dark bg-opacity-10">
-        <img class="" src="images/working-1.png" alt="">
-        <div class="ps-5">
-          <h1>Explore The elearning Institute</h1>
-          <p> Let's start your Learning with our Institute. It's an online Institute. You can learn everything remotly from any where.</p>
+      <div class="">
+        <div class="working d-flex align-items-center bg-success p-2 text-dark bg-opacity-10">
+          <img class="" src="images/working-1.png" alt="">
+          <div class="ps-5">
+            <h1>Explore The elearning Institute</h1>
+            <p> Let's start your Learning with our Institute. It's an online Institute. You can learn everything remotly from any where.</p>
+          </div>
         </div>
       </div>
     </section>
     <!-- Ready to join part -->
-    <section class="container mt-5 bg-primary d-flex justify-content-around">
-      <div class="w-50 p-5">
+    <section class="ready-to container mt-5 bg-primary d-flex justify-content-around">
+      <div class=" ready w-100 p-5">
         <h1>Ready to Join? </h1>
         <p> Its time to implement your dream. <br>So no hasitation, just join our course. </p>
       </div>
-      <div class="w-50 p-5 d-flex align-items-center justify-content-center">
+      <div class="w-100 p-5 d-flex align-items-center justify-content-center">
         <button type="button" class="btn bg-white text-primary fs-6"> Register Now</button>
       </div>
     </section>
@@ -199,49 +202,51 @@
     <div class="container mt-5">
       <h1>Meet our successful students</h1>
     </div>
-    <section class="container mt-5">
-      <div class="row row-cols-1 row-cols-md-4 g-4">
-        <div class="col">
-          <div class="card">
-            <img src="images/student/student-1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Mr. Alex</h5>
-              <p class="card-text">UI Designer</p>
+    <div class="success">
+      <section class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="images/student/student-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mr. Alex</h5>
+                <p class="card-text">UI Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/student/student-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mrs.Tahmina</h5>
+                <p class="card-text">Digital Marketing</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/student/student-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MD. Nayem</h5>
+                <p class="card-text"> Web-Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/student/student-4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mrs. Mubasshira</h5>
+                <p class="card-text">Web-Developer</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <img src="images/student/student-2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Mrs.Tahmina</h5>
-              <p class="card-text">Digital Marketing</p>
-            </div>
-          </div>
+        <div class="d-flex justify-content-center p-5">
+          <button type="button" class="btn btn-primary px-5"> View All</button>
         </div>
-        <div class="col">
-          <div class="card">
-            <img src="images/student/student-3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">MD. Nayem</h5>
-              <p class="card-text"> Web-Designer</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="images/student/student-4.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Mrs. Mubasshira</h5>
-              <p class="card-text">Web-Developer</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="d-flex justify-content-center p-5">
-        <button type="button" class="btn btn-primary px-5"> View All</button>
-      </div>
-    </section>
+      </section>
+    </div>
     <section class="container">
 <!-- Frequenly ask question -->
 <div class="text-center">
@@ -314,13 +319,15 @@
     <div class="text-center mt-5">
       <h1>Trusted By Over 800+ Companies</h1>
     </div>
-    <div class=" my-5 d-flex justify-content-around">
-      <img class="px-3" src="images/company/company-1.png" alt="">
-      <img class="px-3" src="images/company/company-2.png" alt="">
-      <img class="px-3" src="images/company/company-3.png" alt="">
-      <img class="px-3" src="images/company/company-4.png" alt="">
-      <img class="px-3" src="images/company/company-5.png" alt="">
-      <img class="px-3" src="images/company/company-6.png" alt="">
+    <div class="company">
+      <div class=" my-5 d-flex justify-content-around">
+        <img class="px-3" src="images/company/company-1.png" alt="">
+        <img class="px-3" src="images/company/company-2.png" alt="">
+        <img class="px-3" src="images/company/company-3.png" alt="">
+        <img class="px-3" src="images/company/company-4.png" alt="">
+        <img class="px-3" src="images/company/company-5.png" alt="">
+        <img class="px-3" src="images/company/company-6.png" alt="">
+      </div>
     </div> 
     
    </main>
@@ -334,10 +341,11 @@
     <button type="button" class="btn text-white">Terms of Use</button>
     </div>
     <div>
-      <i class="p-2 fa-brands fa-facebook-f"></i>
-      <i class="p-2 fa-brands fa-twitter"></i>
-      <i class="p-2 fa-brands fa-tiktok"></i>
-      <i class="p-2 fa-brands fa-linkedin-in"></i>
+      <a href="https://www.facebook.com"><i class="text-white p-2 fa-brands fa-facebook-f"></i></a>
+      <a href="https://twitter.com/?lang=en"><i class="text-white p-2 fa-brands fa-twitter"></i></a>
+      <a href="https://www.tiktok.com/en"><i class="text-white p-2 fa-brands fa-tiktok"></i></a>
+      <a href="https://www.linkedin.com"><i class="text-white p-2 fa-brands fa-linkedin-in"></i></a>
+      
     </div>
    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

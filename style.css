@@ -1,4 +1,65 @@
-.banner{
-    background-image: url(images/cover/cover-1.png);
-    height: 500px;
+
+@media only screen and (max-width:688px) {
+    .row{
+        display: block;
+    }
+    .special{
+        display: none;
+    }
+    .col img{
+        width: 100%;
+    }
+    .working{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .w-50{
+        width: 100%;
+    }
+    .ps-5{
+        margin-top: 10px;
+    }
+    .ready-to{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .company{
+        display: none;
+    }
+    
 }
+@media only screen and (min-width:688px) and (max-width:992px) {
+    body{
+        margin: 10px;
+    }
+    .course{
+        display: block;
+        width: 100%;
+    }
+    .card{
+        display: flex;
+        max-width: 100%;
+        align-items: center;
+    }
+    .special{
+        display: none;
+    }
+    .ready-to{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+}
+@media only screen and (min-width:992px) {
+    .carousel-caption{
+        margin-bottom: 20px;
+    }
+    #special{
+        display: none;
+    }
+} 
